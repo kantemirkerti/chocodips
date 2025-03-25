@@ -1,0 +1,15 @@
+body {
+    background-color: #fffaf4;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.videoInsert {
+    width: 50%; 
+    height: auto; 
+    overflow: hidden;
+    margin: auto 0;
+}
