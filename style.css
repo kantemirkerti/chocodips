@@ -1,11 +1,16 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
     background-color: #fffaf4;
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 
 .videoInsert {
@@ -14,3 +19,13 @@ body {
     overflow: hidden;
     margin: auto 0;
 }
+
+.header {
+    height: 20vh;
+    display: flex;
+    overflow: scroll;
+    justify-content: center;
+}
+
+
+
