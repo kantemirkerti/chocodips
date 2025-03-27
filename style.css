@@ -27,9 +27,21 @@
     justify-content: center;
 }
 
+.drinks {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    /* position: relative;
+    z-index: 1;
+    top: 10vh; */
+}
 
 @media (max-width: 768px) {
-    .videoInsert {
+    .videoInsert, .drinks {
         width: 100%;
+    }
+
+    .drinks {
+        padding-left: 2vw;
     }
 }
