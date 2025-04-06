@@ -42,21 +42,33 @@
     font-style: normal;
     font-size: 3vh;
     color: #602717;
-    /* position: relative;
-    z-index: 1;
-    top: 10vh; */
 }
 
 p {
     color: #000;
 }
 
+.footer {
+    display: flex;
+    margin-top: 5vh;
+    height: 5vh;
+    background-color: #602717;
+    align-items: center;
+    justify-content: center;
+    color: beige;
+}
+
+a {
+    color: black;
+}
+
 @media (max-width: 768px) {
-    .videoInsert, .drinks {
+    .videoInsert, .drinks, .footer {
         width: 100%;
     }
 
     .drinks {
         padding-left: 2vw;
+        
     }
 }
